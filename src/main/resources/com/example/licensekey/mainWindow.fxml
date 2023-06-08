@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<BorderPane prefHeight="367.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licensekey.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+<top>
+    <ToolBar>
+        <HBox spacing="10" fx:id="toolbarHBox">
+            <Button fx:id="import" onAction="#onImportButtonClicked" text="Import" />
+            <Button fx:id="export" onAction="#onExportButtonClicked" text="Export" />
+            <Label fx:id="confirmation" text=" " >
+                <font>
+                    <Font size="20"/>
+                </font>
+            </Label>
+        </HBox>
+
+    </ToolBar>
+</top>
+<center>
+    <TableView id="table" fx:id="table" layoutX="34.0" layoutY="41.0" prefHeight="273.0" prefWidth="266.0">
+      <columns>
+          <TableColumn id="id" fx:id="id" prefWidth="45.0" text="id" />
+          <TableColumn id="serialNumber" fx:id="serialNumber" prefWidth="123.0" text="serialNumber" />
+          <TableColumn id="licenseKey" fx:id="licenseKey" prefWidth="134.0" text="licenseKey" />
+      </columns>
+    </TableView>
+</center>
+</BorderPane>
