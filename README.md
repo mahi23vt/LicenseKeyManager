@@ -7,7 +7,7 @@ Snapshots:
 
 ![image](https://github.com/mahi23vt/LicenseKeyManager/assets/87928387/707513a3-fc8e-4d90-802b-6c7e226abd47)
 
-selects the csv sheet
+selects the Excel sheet (in .csv).
 
 ![image](https://github.com/mahi23vt/LicenseKeyManager/assets/87928387/a143cd93-052d-4854-b0f9-c6f9ce783a9d)
 
@@ -19,7 +19,7 @@ Once the file is imported, We get the respective license key in the adjecent col
 
 ![image](https://github.com/mahi23vt/LicenseKeyManager/assets/87928387/7100afad-b17d-4e23-9fb7-e417739d5ceb)
 
-Currently, the formula for generating the license key is very simple. It simply converts the serial number in to UPPER CASE. This can further be replaced with any function.
+Currently, the formula for generating the license key is very simple. It simply converts the serial number in to LOWER CASE. This can further be replaced with any function.
 
 Once the keys are generated, we can export it to save it to any location in csv format.
 
